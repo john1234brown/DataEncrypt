@@ -1,0 +1,23 @@
+{
+  "name": "dataencrypt",
+  "version": "1.0.0",
+  "description": "A Simple Protection Module for storing a encrypted data securely in regular encrypted file format using Argon2 and AES-256-GCM methods!",
+  "main": "reobby.js",
+  "scripts": {
+    "build": "echo \"Obfuscating Files to dist folder\" && node /deprecated/obby.js && echo \"Finished obfuscating... please utilize obfuscated file for proper security tactics also don't forget to set a docker private key properly! \n as well as properly utilize said .env file if not using a docker environment varible to apply! but the dotenv setup is for development purposes rather not for production and not recommended for production use! You have been warned and advised!\"",
+    "run": "node reobby.js",
+    "start": "node reobby.js",
+    "test": "node debugindex2.js"
+  },
+  "author": "Johnathan Edward Brown with the help Of AI for base Skeleton Master Key setup then converted to Rotation Method",
+  "license": "GPL-3.0-only",
+  "dependencies": {
+    "@babel/core": "^7.25.2",
+    "@babel/types": "^7.25.2",
+    "argon2": "^0.40.3",
+    "better-sqlite3": "^11.1.2",
+    "dotenv": "^16.4.5",
+    "esprima": "^4.0.1",
+    "javascript-obfuscator": "^4.1.1"
+  }
+}

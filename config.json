@@ -1,0 +1,70 @@
+{
+  "variables": {
+    "AvailableParallelism": "AvailableParallelism",
+    "ANCESTOR_MASTER_KEY": "NIkjNLZOLZpX",
+    "AMK": "jCzUalBraOLi",
+    "AES_STRING": "CbDQiYsQfYSy",
+    "originalConsole": "originalConsole",
+    "debug": "debug",
+    "isProcessing": "isProcessing"
+  },
+  "functions": {
+    "securityLock": "securityLock",
+    "generatePassword": "generatePassword",
+    "deriveKey": "deriveKey",
+    "deriveSalt": "deriveSalt",
+    "setAES": "setAES",
+    "getAES": "getAES",
+    "getAvailableParallelism": "getAvailableParallelism",
+    "encryptData": "encryptData",
+    "decryptData": "decryptData",
+    "encrypt": "encrypt",
+    "decrypt": "decrypt",
+    "saveMasterKey": "saveMasterKey",
+    "loadMasterKey": "loadMasterKey",
+    "handleEncryptionDecryption": "handleEncryptionDecryption",
+    "onClose": "onClose"
+  },
+  "envVars": {
+    "SUP3V_S3CV3T_STRING": {
+      "name": "NXeCjvvZQeuE",
+      "value": "This Is an Example Password"
+    },
+    "J0HNNYK1N_SUP3V_S3CV3T_STRING": {
+      "name": "cryfKWlKqbpr",
+      "value": "This Is an Example Password"
+    },
+    "EXTRA_SECURITY_KEY": {
+      "name": "UMO_BhpdOskf",
+      "value": "12345678"
+    },
+    "DATABASE_LOCATION": {
+      "name": "DATABASE_LOCATION",
+      "value": "./ssm.db"
+    },
+    "USE_DB": {
+      "name": "FU_yAEEGvqEP",
+      "value": "true"
+    },
+    "USE_PASSWORD_DB": {
+      "name": "dHkoJVdQnBPF",
+      "value": "false"
+    },
+    "DATABASE_PHSSW0RD_S3CR3T_VARIABLE": {
+      "name": "d_lJFgjdPBpP",
+      "value": "Merrrr"
+    },
+    "USE_BUFFER": {
+      "name": "SoJKZmcwFOTh",
+      "value": "false"
+    },
+    "ENCRYPTION_KEY": {
+      "name": "OsLhlfLSckal",
+      "value": "IGNORE ME I STAY THE SAME AND AM ONE TIME GENERATED KEY AS BASE KEY!"
+    },
+    "ENCRYPTION_SALT": {
+      "name": "wsOpdQYachlk",
+      "value": "IGNORE ME TO I STAY THE SAME AND AM ONE TIME GENERATED SALT FOR NOTHING!"
+    }
+  }
+}
